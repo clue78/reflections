@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When I initialize a repository a hidden directory is created, in which git saves the data for the tracking of the commits. 
+	When I initialize a repository a hidden directory is created, in which git saves the data for the tracking of the commits. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	In the repository git keeps track of the changes, that are made. In the working directory there are the files, that are not necessarily tracked. The value of the staging area is that of a try and error space.
+
