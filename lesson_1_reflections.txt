@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using diff helped by indicating the lines, where there was a difference between
+    the two files, instead of scanning through all the lines.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It will be much easier to find bugs, get back to running systems after having made changes, that didn't work and help keep track of changes especially when working in teams.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of choosing the time to create commits manually lies in the ability to choose logical changes. When the versions are saved automatically, there could be versions, that don't compile and make no sense. The cons of manually choosing the time to create a commit lies in the possibility, to forget the commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Some changes in applications affect more than one file. Therefore it's advisable to save multiple files in one commit, that you don't have to search for corresponding changes manually. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log helps in finding the different commits which is supported by the comments attached to each commit. The command git diff helps to see the actual changes, that were made in one commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It's easy to get back to a previous version by using version control, as all previous files are accessible.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I will use Git for collaboration with other programmers, for magento and extension installing.
