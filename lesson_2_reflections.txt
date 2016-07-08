@@ -22,3 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	The result is, that the changes made on two branches are merged in one branch. The commits before the merger are accessible by the new merged branch as parents.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's merging helps finding unchanged or seperately added parts of a program instead of searching everything manually. When changes are made to the same part in different branches a conflict is shown, which has to be solved manually. this leaves space for decisions, what to do in such a case.
