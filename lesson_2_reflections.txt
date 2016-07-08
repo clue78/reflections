@@ -10,3 +10,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	Before commiting a change check the diff between the working area and the staging area. Make sure, only the changes, you want to commit are in the staging area and then commit the change.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are helpful, when I want to experiment with a programm and do not securly consider the change as a new feature for the system. Also for different versions to test different changes branches are helpful.
