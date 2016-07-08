@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 	
 	In the repository git keeps track of the changes, that are made. In the working directory there are the files, that are not necessarily tracked. The value of the staging area is that of a try and error space.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Before commiting a change check the diff between the working area and the staging area. Make sure, only the changes, you want to commit are in the staging area and then commit the change.
+
